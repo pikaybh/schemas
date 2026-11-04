@@ -1,0 +1,12 @@
+{
+  "project": "example",
+  "vocabulary": "widgets",
+  "version": "v1.0.0",
+  "status": "draft",
+  "maintainers": [
+    "github-username"
+  ],
+  "description": "Replace with the vocabulary's meaning and intended consumers",
+  "namespace_uri": "https://pikaybh.github.io/schemas/ns/example/widgets/v1.0.0/",
+  "schema_file": null
+}

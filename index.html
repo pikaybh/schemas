@@ -1,18 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>BIXML Schemas — Namespace Registry</title>
-<meta name="description" content="BIXML Native BIM Markup Language public namespace registry">
-<style>body{font:17px/1.65 system-ui,sans-serif;max-width:780px;margin:5vh auto;padding:0 24px;color:#273343;background:#fbfcff}a{color:#1459ae}h1{font-size:clamp(32px,5vw,50px);line-height:1.15;letter-spacing:-.035em}.card{border:1px solid #ccd5e0;border-radius:14px;padding:22px;margin:28px 0;background:white}.muted{color:#687386}small{font-size:13px}@media(prefers-color-scheme:dark){body{background:#11171d;color:#edf1f5}.card{background:#1b252e;border-color:#394654}a{color:#88b9ff}.muted{color:#aab4c1}}</style>
-</head><body>
-<small class="muted">BIXML · PUBLIC SCHEMA REGISTRY</small>
-<h1>Open schemas for interoperable BIM.</h1>
-<p>Namespace definitions and future specifications for <strong>Native BIM Markup Language</strong> research.</p>
-<section class="card"><small class="muted">PROPOSED · INCUBATING</small>
-<h2><a href="./openxmlformats/">Open XML Formats</a></h2>
-<p>Namespace entrypoint for future versioned XML Schema files, semantic authoring contracts, and conformance examples.</p>
-</section>
-<p class="muted">No approved XML grammar or XSD is published yet. This independent project is not affiliated with Microsoft Office Open XML, Ecma, ISO/IEC, or buildingSMART.</p>
-<p><a href="https://github.com/pikaybh/schemas">Repository</a> · <a href="https://github.com/pikaybh/Xim">BIXML / Xim</a></p>
-</body></html>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Independent, multi-project registry of versioned schemas and XML namespaces.">
+<title>Schemas · Shared Registry</title>
+<style>
+:root{color-scheme:light dark;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body{max-width:850px;margin:0 auto;padding:clamp(24px,5vw,68px) 24px;line-height:1.65}
+h1{font-size:clamp(2.3rem,6vw,3.75rem);line-height:1.1;letter-spacing:-.045em;margin:8px 0 24px}
+h2{font-size:1.15rem}
+a{color:inherit;text-underline-offset:.2em}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.65}
+.lead{font-size:1.16rem;max-width:65ch;opacity:.82}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:30px 0}
+.card{border:1px solid color-mix(in srgb,currentColor 18%,transparent);border-radius:14px;padding:20px}
+.card p{margin:8px 0 0;opacity:.7}
+.small{font-size:.92rem;opacity:.7}
+hr{border:0;border-top:1px solid color-mix(in srgb,currentColor 18%,transparent);margin:40px 0 20px}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+</style>
+</head>
+<body>
+<main>
+<p class="eyebrow">Public · Multi-project · Versioned</p>
+<h1>Shared Schema Registry</h1>
+<p class="lead">A project-neutral home for stable, documented schemas and XML namespaces, designed for independent tools, human contributors and coding agents.</p>
+<div class="cards">
+<section class="card"><p class="eyebrow">XML</p><h2><a href="./ns/">Namespace Registry</a></h2><p>Project-scoped, versioned namespaces, XSDs and documentation.</p></section>
+<section class="card"><p class="eyebrow">Extensible</p><h2><a href="https://github.com/pikaybh/schemas/tree/main/formats">Other Schema Families</a></h2><p>Future JSON Schema, API and domain schema families, once reviewed.</p></section>
+<section class="card"><p class="eyebrow">Historical URL</p><h2><a href="./openxmlformats/">Open XML Formats</a></h2><p>Preserved informational route; not a canonical namespace or Office Open XML site.</p></section>
+</div>
+<h2>Shared, but isolated</h2>
+<p>Each registered project controls its own namespace/version subtree. Published versions are immutable, and contributors must not modify other projects' files. New project reservations and shared pages require central maintainer review.</p>
+<p class="small">No project-specific XML vocabulary or official standards-body endorsement is implied by this registry. Initial status: no stable namespaces published.</p>
+</main>
+<hr>
+<footer class="small"><a href="https://github.com/pikaybh/schemas">Source and contribution rules</a> · <a href="https://github.com/pikaybh/schemas/blob/main/AGENTS.md">Instructions for AI agents</a></footer>
+</body>
+</html>
