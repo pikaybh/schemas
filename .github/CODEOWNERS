@@ -1,0 +1,3 @@
+# This file expresses review ownership; enforcement depends on GitHub branch protection/rulesets.
+# The repository owner reviews cross-project, registry, governance, and publication changes.
+* @pikaybh
